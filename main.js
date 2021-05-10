@@ -28,6 +28,6 @@ function draw(){
 image(video, 0, 0, 300, 300);
 image(clown_nose, noseX, noseY, 30,30);
 }
-function TakeSnapshot(){
-Save( "myfilterimage.png");
+function take_snapshot(){
+save( "myFilterImage.png");
 }
